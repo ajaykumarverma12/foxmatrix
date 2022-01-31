@@ -1,0 +1,172 @@
+.row.no-pad {
+    margin-right:0;
+    margin-left:0;
+  }
+  .row.no-pad > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+  }
+.about_top{
+    margin-top: 60px;
+}
+.emp_img{
+    width: 100%;
+    height: 280px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+.emp_img1{
+    width: 100%;
+    /* height: 350px; */
+    margin-top: 25px;
+}
+.div_about{
+    border: 1px solid black;
+    width: 100px;
+    height: 50px;
+    position: absolute;
+}
+.employer_center{
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+font-weight: 500;
+font-size: 22px;
+text-align: center;
+color: #FFFFFF;
+font-family: 'Poppins', sans-serif;
+  }
+  .employer_center1{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+font-weight: 500;
+font-size: 28px;
+text-align: center;
+color: #FFFFFF;
+font-family: 'Poppins', sans-serif;
+  }
+      .emplyer_image{
+        width: 506px;
+        height: 398px;
+          border: 1px solid black;
+          border-radius: 36px 0px 36px 36px;
+      }
+      .employer_card {
+        float: left;
+        margin-top: 60px;
+    }
+    .employer_card img{
+        width: 500px;
+        border-radius: 36px 0px 36px 36px;
+        height: 300px;
+    }
+    .employer_card:nth-child(2) {
+        margin-left: -98px;
+        margin-top: 75px;
+        width: 440px;
+        background: #FFFFFF;
+box-shadow: 0px 0px 30px rgba(17, 17, 17, 0.1);
+border-radius: 36px 0px 36px 36px;
+
+    }
+    .employer_text{
+font-weight: 600;
+font-size: 22px;
+font-family: 'Poppins', sans-serif;
+align-items: center;
+margin-top: 50px;
+color: #000000;
+    }
+    .employer_text1{
+        font-family: 'Poppins', sans-serif;
+font-weight: normal;
+font-size: 14px;
+align-items: center;
+text-align: justify;
+color: #000000;
+opacity: 0.5;  
+    }
+    .emp_img{
+        width: 100%;
+    }
+    .btn2_emp {
+        background: #C12328;
+      border-radius: 6px;
+      border: none;
+      margin-bottom: 20px;
+      width: 130px;
+      height: 45px;
+      margin-top: 25px;
+      }
+      .btn_text2_emp{
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        align-items: center;
+        text-align: center; 
+        color: #FFFFFF;
+        margin-top: 6px;
+      }
+      .top_about{
+        margin-top: 50px;
+    }
+    .multiple{
+        font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    align-items: center;
+    color: #000000;
+    }
+    .multiple_text{
+    font-weight: normal;
+    font-size: 14px;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    opacity: 0.5;
+    width: 400px;
+    }
+    .emp_box{
+        width: 390px;
+        height: 440px;
+        margin-top: 80px;
+    }
+    .emp_box img{
+        width: 390px;
+        height: 440px;
+        border-radius: 18px;
+
+    }
+    .top_access{
+        margin-top: 100px;
+    }
+    .top_access1{
+        /* border: 1px solid black;
+        width: 100px;
+        height: 150px; */
+        margin-top: 100px;
+    }
+    .emp_text{
+        padding-left: 25px;
+        padding-top: 15px;
+font-weight: 500;
+font-size: 22px;
+color: #000000;
+font-family: 'Poppins', sans-serif;
+margin-bottom: 1px;
+    }
+    .emp_text1{
+        font-family: 'Poppins', sans-serif;
+        padding: 0px 20px;
+        font-size: 14px;
+align-items: center;
+text-align: justify;
+color: #000000;
+opacity: 0.5
+    }
+    .emp_icon_img{
+        width: 50px;
+    }

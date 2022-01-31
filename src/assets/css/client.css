@@ -1,0 +1,192 @@
+.skill_content{
+    background:rgb(255, 231, 214,0.2);
+    margin-top: 25px;
+}
+.client{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    align-items: center;    
+    color: #0A0A0A;
+    margin-top: 80px;
+  }
+  .vector{
+      margin-top: 20px;
+  }
+  .vector img{
+      width: 100%;
+  }
+  .container1 {
+    display: flex; 
+        flex-direction: row; 
+        justify-content: center; 
+        align-items: center; 
+        left: 50%;
+    transform: translate(-50%,-50%);
+    position:absolute;
+    left: 53%;
+}
+
+
+.card{
+    background: #FFFFFF;
+box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+border-radius: 12px;
+width: 156.37px;
+height: 156.37px;
+margin: 5px;
+}
+/* @media only screen and (max-width: 422px) {
+    .vector img{
+        display: none;
+    }
+    .card {
+        flex-wrap: wrap;
+       
+      }
+  } */
+
+.card_expert{
+    width: 156.37px;
+height: 156.37px;
+position:absolute;
+background: #FFFFFF;
+box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+border-radius: 12px;
+}
+.flex_card{
+    position: absolute;
+    color: white;
+    border: 1px solid black;
+}
+.card img{
+height: 54.15px;
+display: block;
+  margin: auto;
+  width: auto;
+}
+.row.no-pad {
+    margin-right:0;
+    margin-left:0;
+  }
+  .row.no-pad > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+  }
+  .item {
+    display: flex; 
+        flex-direction: row; 
+        justify-content: center;
+        align-items: center; 
+        margin-top: 100px;
+}
+.item1 {
+    display: flex; 
+        flex-direction: row; 
+        justify-content: center; 
+        align-items: center; 
+        margin-top: 25px;
+}
+.centered {
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+font-weight: 600;
+font-size: 22px;
+top: 20px;
+margin: 15px 120px;
+  }
+
+.langauge{
+    font-family: 'Nunito';
+    font-weight: 600;
+    font-size: 14px;
+    display: block;
+  margin: auto;
+  margin-top: 0px;
+}
+
+.skill{
+    font-family: 'Poppins', sans-serif;
+font-weight: 600;
+font-size: 22px;
+color: #0A0A0A;
+margin-top: 50px;
+}
+
+#cont {
+    display: flex; 
+        flex-direction: row;
+        justify-content: center; 
+   
+        align-items: center; 
+}
+#cont2 {
+    display: flex;
+        flex-direction: row; 
+        justify-content: center; 
+   
+        align-items: center;
+}
+
+.box {
+    width: 156.37px;
+    height: 156.37px;      
+      margin: 5px;
+    text-align: center;
+    background: #FFFFFF;
+border-radius: 12px;
+}
+.card_img_item{
+      width: 100%;
+      margin-top: 35px;
+}
+.video_Item{
+    background: #FFFFFF;
+box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+border-radius: 12px;
+width: 156.37px;
+height: 156.37px;
+margin: 5px;
+margin-bottom: -20px;
+
+}
+.video_Item1{
+    background: #FFFFFF;
+box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+border-radius: 12px;
+width: 156.37px;
+height: 156.37px;
+margin: 5px;
+margin-top: 280px;
+}
+.video_Item1 img{
+    display: block;
+      margin: auto;
+      width: auto; 
+      margin-top: 10px;
+}
+.video_Item img{
+    display: block;
+      margin: auto;
+      width: auto; 
+      margin-top: 10px;
+}
+.video_Item1 p{
+    font-family: 'Nunito';
+    font-weight: 600;
+    font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+}
+.video_Item p{
+    font-family: 'Nunito';
+    font-weight: 600;
+    font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+}
+.video_game{
+    transform: translate(0,-50%);
+    left: 53%;
+}

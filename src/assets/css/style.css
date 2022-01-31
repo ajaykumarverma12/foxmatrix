@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Poppins:ital,wght@0,100;0,200;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;1,100;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0px;
+  }
+  
+  .nav {
+    background-color: #FFFFFFF2;
+    position: relative;
+    box-shadow: 0px 4px 10px 0px #0000001A;
+    position: fixed;
+    width: 100%;
+    top: -20px;
+    z-index: 12;
+    height: 80px;
+  }
+ 
+  .nav > .nav_header {
+    display: inline;
+    padding: 0px 100px;
+  }
+  
+  .nav_title img {
+    width: 200px;
+    height: auto;
+  }
+/*   
+  .nav > .link {
+    float: right;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+font-weight: 400;
+font-size: 18px;
+  }
+  
+  .nav > .link > a {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #000000;
+  }
+a.active{
+  color: #F78C40 !important; 
+  margin-top: 5px;
+}
+.my_image{
+  background: url(../image/Header_selector_icon.png) no-repeat  center ;
+  height:10px;
+  display: block;
+  background-size: 10px 10px;
+}
+  .nav > #nav-check {
+    display: none;
+  }
+  
+  @media (max-width:600px) {
+    .nav > .nav_btn {
+      display: inline-block;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+    }
+    .nav > .nav_btn > label {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      padding: 13px;
+      background-color: #F78C40;
+    }
+    .nav > .nav_btn > label:hover,.nav  #nav-check:checked ~ .nav_btn > label {
+      background-color:#F78C40;
+    }
+    .nav > .nav_btn > label > span {
+      display: block;
+      width: 25px;
+      height: 10px;
+      border-top: 2px solid #eee;
+    }
+    .nav > .link {
+      position: absolute;
+      display: block;
+      width: 100%;
+      background-color: #FFFFFFF2;
+      height: 0px;
+      transition: all 0.3s ease-in;
+      overflow-y: hidden;
+      top: 50px;
+      left: 0px;
+    }
+    .nav > .link > a {
+      display: block;
+      width: 100%;
+    }
+    .nav > #nav-check:not(:checked) ~ .link {
+      height: 0px;
+    }
+    .nav > #nav-check:checked ~ .link {
+      height: calc(100vh - 50px);
+      overflow-y: auto;
+    }
+  }
+
+
+ */
+
+
+
+
+
+ 
+ a{
+   color: black;
+   text-decoration: none;
+   padding-left:37px;
+   font-family: 'Poppins', sans-serif;
+   font-style: normal;
+font-weight: 400;
+font-size: 18px;
+padding-top: 35px;
+ }
+ a:hover{
+   text-decoration: none;
+   color: black;
+ }
+ a.active{
+  color: #F78C40 !important; 
+  background: url(../image/Header_selector_icon.png)  no-repeat  center  ;
+  background-size: 10px 10px;
+}
+.navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: 1;
+  align-items: center;
+  background: white;
+  margin-left: -16px;
+}
+
+

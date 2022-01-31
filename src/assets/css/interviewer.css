@@ -1,0 +1,243 @@
+.row.no-pad {
+    margin-right:0;
+    margin-left:0;
+  }
+  .row.no-pad > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+  }
+  .about_top{
+    margin-top: 60px;
+}
+.about_img{
+    width: 100%;
+    height: 280px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+.div_about{
+    border: 1px solid black;
+    width: 100px;
+    height: 50px;
+    position: absolute;
+}
+.interview_center{
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+font-weight: 500;
+font-size: 22px;
+text-align: center;
+color: #FFFFFF;
+font-family: 'Poppins', sans-serif;
+  }
+  .interview_center1{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+font-weight: 500;
+font-size: 28px;
+text-align: center;
+color: #FFFFFF;
+font-family: 'Poppins', sans-serif;
+  }
+
+      .interview_card {
+        float: right;
+    /* width: 500px;
+    height: 288px; */
+        border-radius: 36px 0px 36px 36px;
+                margin-top: 60px;
+    }
+    .interview_card img {
+        width: 500px;
+        height: 288px;
+    }
+    .interview_card:nth-child(2) {
+        position:absolute;
+        margin-left: 175px;
+        margin-top: 92px;
+        width: 440px;
+        height: 220px;
+        background: #FFFFFF;
+box-shadow: 0px 0px 30px rgba(17, 17, 17, 0.1);
+border-radius: 36px 0px 36px 36px;
+    }
+    .interview_text{
+        padding-left: 25px;
+        padding-top: 20px;
+font-weight: 500;
+font-size: 22px;
+align-items: center;
+color: #000000;
+font-family: 'Poppins', sans-serif;
+    }
+    .interview_text1{
+        padding: 0px 25px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: normal;
+         font-size: 14px;
+         text-align: justify;
+color: #000000;
+
+opacity: 0.5;
+    }
+    .emp_box{
+        width: 390px;
+        height: 440px;
+        margin-top: 80px;
+    }
+    .emp_box img{
+        width: 390px;
+        height: 440px;
+        border-radius: 18px;
+
+    }
+    .multiple{
+        font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    align-items: center;
+    color: #000000;
+    }
+    .multiple_text{
+    font-weight: normal;
+    font-size: 14px;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    opacity: 0.5;
+    width: 400px;
+    }
+    .top_access{
+        margin-top: 100px;
+    }
+    .top_access1{
+        /* border: 1px solid black;
+        width: 100px;
+        height: 150px; */
+        margin-top: 100px;
+    }
+    .top_access1 img{
+        height: 250px;
+    }
+
+     .foxmatrix_interview{
+         width: 100%;;
+         height: 350px;
+         border: 1px solid black;
+         margin-top: 50px;
+     } 
+     .interview_price{
+         margin-top: 100px;
+         font-family: 'Poppins', sans-serif;
+         font-weight: 600;
+         font-size: 22px;         
+         align-items: center;         
+         color: #0A0A0A;
+     }
+     .interview_card1{
+        width: 300px;
+        height: 280px;
+        background:rgb(249, 163, 102,0.2);
+        border-radius: 18px;
+    margin-left: auto;
+    margin-right: auto;
+     }
+     .video_interview{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        font-family: ' Nunito';
+        align-items: center;
+        color: #000000;
+        padding-left: 25px;
+        padding-top: 25px;
+     }
+     .video_interview1{
+        font-style: normal;
+        font-size: 14px;
+        font-family: ' Nunito';
+        align-items: center;
+        color: #000000;
+        padding-left: 25px;
+        margin-bottom: 0px;
+     }
+     .platform_fee{
+         padding-left:25px;
+         padding-top: 30px;
+         font-family: ' Nunito';
+         font-weight: normal;
+         font-size: 14px;
+         align-items: center;
+         color: #000000;
+         margin-bottom: 0px;
+     }
+     .platform_rupees{
+        font-family: ' Nunito';
+        font-weight: bold;
+        font-size: 22.1752px;        
+        align-items: center;
+        color: #000000;
+        padding-left: 5px;
+
+     }
+     .rupees_sign{
+         padding-left: 5px;
+     }
+     .per_interview{
+        font-family: ' Nunito';
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 16px;        
+        color: #000000;
+        opacity: 0.5;
+        padding-left: 25px;
+     }
+     .interview_start{
+         margin-left: auto;
+         margin-right: auto;
+         display:block;
+         background: #F2503F;
+         border-radius: 6px;
+         border: none;
+         width: 175px;
+height: 45px;
+margin-top: 10px;
+     }
+     .start_text{
+        font-family: ' Nunito';
+        font-weight: 600;
+        font-size: 14px;
+        align-items: center;
+        text-align: center; 
+        color: #FFFFFF;
+        margin-top: 10px;
+     }
+     .interview_icon{
+         width: 50px;
+     }
+     .earn_money{
+        font-weight: 600;
+        font-size: 22px;
+        align-items: center;        
+        color: #0A0A0A;
+        font-family: 'Poppins', sans-serif;
+        margin-top: 100px;
+     }
+     .earn_image{
+        width: 100%;
+        margin-top: 60px;
+     }
+     .eran_image1{
+        position: absolute;
+        top: 73%;
+        left: -10%;
+    }
+     
+     .frame_interview{
+        position: absolute;
+        left: 102%;
+    }
+     

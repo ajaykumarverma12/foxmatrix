@@ -1,0 +1,141 @@
+.row.no-pad {
+    margin-right:0;
+    margin-left:0;
+  }
+  .row.no-pad > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+  }
+.about_top{
+    margin-top: 60px;
+}
+.about_img{
+    width: 100%;
+    height: 280px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+.div_about{
+    border: 1px solid black;
+    width: 100px;
+    height: 50px;
+    position: absolute;
+}
+.about_center{
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+font-weight: 500;
+font-size: 22px;
+text-align: center;
+color: #FFFFFF;
+font-family: 'Poppins', sans-serif;
+  }
+  .about_center1{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+font-weight: 500;
+font-size: 28px;
+text-align: center;
+color: #FFFFFF;
+font-family: 'Poppins', sans-serif;
+  }
+      .card_about_img{
+          margin-top: 50px;
+      }
+      .card_about {
+        float: left;
+    }
+    .card_about img{
+        width: 200px;
+        height: 230px;
+        border-radius: 12px;
+    }
+    .card_about:nth-child(2) {
+        margin-left: -50px;
+        margin-top: 120px;
+    }
+    .card_about1 img{
+        height: 100px;
+        margin-left: -100px;  
+    }
+    .card_about2 img{
+        height: 100px;
+        /* margin-left: -100px;   */
+margin-left: -300px;
+margin-top: 139px;
+    }
+    
+   
+   .about_card_text{
+       width: 470px;
+background: #FFFFFF;
+box-shadow: 0px 0px 30px rgba(17, 17, 17, 0.1);
+border-radius: 36px 0px 36px 36px;
+margin-top: 90px;
+padding-bottom: 10px;
+   }
+   .icon_about_img{
+       width: 50px;
+   }
+.card_us{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+font-size: 22px;
+margin-left: 20px;
+padding-top: 8px;
+align-items: center;
+color: #000000;;
+}
+.card_subus{
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    align-items: center;
+    text-align: justify; 
+    color: #000000;
+    opacity: 0.5;
+    width: 450px;
+    padding-left: 30px;
+}
+.top_about{
+    margin-top: 50px;
+}
+.multiple{
+    font-family: 'Poppins', sans-serif;
+font-weight: 500;
+font-size: 18px;
+align-items: center;
+color: #000000;
+}
+.multiple_text{
+font-weight: normal;
+font-size: 14px;
+text-align: justify;
+font-family: 'Poppins', sans-serif;
+color: #000000;
+opacity: 0.5;
+width: 400px;
+}
+    .card_interview {
+        float: left;
+    }
+    .card_interview img{
+        width: 230px;
+        height: 250px;
+        border-radius: 12px;
+    }
+    .card_interview:nth-child(2) {
+        margin-left: -75px;
+        margin-top: 160px;
+    }
+
+    .top_access{
+        margin-top: 100px;
+    }
+    .top_access1{
+      
+        margin-top: 100px;
+    }
